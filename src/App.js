@@ -4,6 +4,7 @@ import LoginModal from './components/LoginModal';
 import ProductList from './components/ProductList';
 import CarrinhoModal from './components/CarrinhoModal';
 
+
 function App() {
   const [mostrarModalLogin, setMostrarModalLogin] = useState(false);
   const [mostrarCarrinho, setMostrarCarrinho] = useState(false);
